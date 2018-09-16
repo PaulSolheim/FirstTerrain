@@ -1217,7 +1217,7 @@ void River()
     {
         Debug.Log("Initializing Terrain Data");
         terrain = this.GetComponent<Terrain>();
-        terrainData = Terrain.activeTerrain.terrainData;
+        terrainData = terrain.terrainData;
     }
 
     private void Awake()
